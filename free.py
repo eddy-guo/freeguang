@@ -28,11 +28,11 @@ async def on_voice_state_update(member, before, after):
     if member.id == 386687850025844749:
         await member.move_to(None)
 
-@bot.command()
-async def gift(ctx):
-    await ctx.send("<@386687850025844749>, please check your dms :3")
-    await free.create_dm()
-    await free.dm_channel.send("Happy birthday froguang, please claim your RP card - **XXX XXX XXXX**")
-    await free.dm_channel.send("See you tomorrow <3")
+# @bot.command()
+# async def gift(ctx):
+#     await ctx.send("<@386687850025844749>, please check your dms :3")
+#     await free.create_dm()
+#     await free.dm_channel.send("Happy birthday froguang, please claim your RP card - **XXX XXX XXXX**")
+#     await free.dm_channel.send("See you tomorrow <3")
 
 bot.run(TOKEN)
